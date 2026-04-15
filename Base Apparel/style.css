@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+
+.textWrapper{
+    padding-top: 20px;
+    padding-left: 130px;
+    padding-right: 300px;
+    border: black solid 1px;
+    font-family: josefin sans;
+}
+
+.apparelLogo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.apparelLogo span{
+    width: 20px;
+}
+
+.circleLogo{
+    width: 25px;
+    height: 25px;
+    border: 4px solid #EE8B8B;
+    border-radius: 50%;
+}
+
+.textContent{
+    margin: 0;
+}
+
+.comingSoon{
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+.heading-first-word{
+    color: #CE9898;
+    font-weight: 200;
+    letter-spacing: 10px;
+}
+
+.heading-second{
+    font-weight: bolder;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+
+.fellowShoppers{
+    padding-top: 30px;
+    font-size: 15px;
+    color: #CE9898;
+}
+
+.imageBox{
+    height: 100%;
+}
+
+.imageBox img{
+    height: 100%;
+}
+
+.emailSubscription{
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+    position: relative;
+}
+
+.emailSubscription input{
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #CE9898;
+    border-radius: 20px;
+}
+
+.emailSubscription input::placeholder{
+    padding-left: 20px;
+    font-size: 12px;
+    color: lightgray;
+}
+
+.emailSubscription button{
+    padding: 10px 30px;
+    background-color: #EE8B8B;
+    color: white;
+    border: 2px solid #EE8B8B;
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+
+.emailSubscription button img{
+    width: 7px;
+    height: 10px;
+}
